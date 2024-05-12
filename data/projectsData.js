@@ -2,7 +2,7 @@ const projectsData = [
   {
     title: 'CICD Project',
     description: `Continuous Integration and Continuous Delivery (CI/CD) pipeline for building and deploying a Web Application`,
-    imgSrc: '',
+    imgSrc: 'https://miro.medium.com/v2/resize:fit:1000/1*oKtkIH3Mx4dT8Rv8aANoDw.jpeg',
     href: 'https://medium.com/@lifeofpavan/continuous-integration-and-continuous-delivery-ci-cd-pipeline-for-building-and-deploying-a-web-48a7a9ec4ba0',
     github: 'https://github.com/pavan-chintala/registration_app_cicd',
     tech1: 'DevOps',
