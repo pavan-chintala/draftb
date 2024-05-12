@@ -1,10 +1,10 @@
 const projectsData = [
   {
-    title: 'InstantMD',
-    description: `Instant MD is an Investigation, Medication and Chief complaint recognition application using Natural Language Processing. 🏆 Winner of the HealthCare Track at the MINeD Hackathon.`,
+    title: 'CICD Project',
+    description: `Continuous Integration and Continuous Delivery (CI/CD) pipeline for building and deploying a Web Application`,
     imgSrc: '',
     href: '',
-    github: 'https://github.com/pycoder2000/InstantMD',
+    github: 'https://github.com/pavan-chintala/registration_app_cicd',
     tech1: 'Regex',
     tech2: 'Flask',
     tech3: 'Semantic UI',
