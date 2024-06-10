@@ -1,10 +1,10 @@
 {
-  "name": "parth-desai-blog",
+  "name": "pavan-chintala-blog",
   "version": "1.5.6",
   "private": true,
   "author": {
-    "name": "Parth Desai",
-    "email": "desaiparth2000@gmail.com",
+    "name": "Pavan Chintala",
+    "email": "lifeofpavan@gmail.com",
     "url": "https://musing.vercel.app/"
   },
   "scripts": {
