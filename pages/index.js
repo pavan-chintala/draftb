@@ -28,12 +28,12 @@ export default function Home({ posts }) {
               <span className="text-primary-color-500 dark:text-primary-color-dark-500">Pavan Chintala</span>
             </h1>
             <h2 className="prose pt-5 text-lg text-gray-600 dark:text-gray-300">
-              {`Welcome to ${siteMetadata.description}. I extend a warm welcome to my personal blog, a platform where I share insights and reflections. As an aspiring DevOps Engineer, my dedication is steadfastly rooted in the fields of DevOps, Cloud, and Automation. In my spare time, I actively engage in the development of open projects and continuously seek to expand my knowledge of emerging technologies and tools.
+              {`Welcome to ${siteMetadata.description}. I extend a warm welcome to my personal blog, a platform where I share insights and reflections. As an aspiring DevOps Engineer, my dedication is steadfastly rooted in the fields of DevOps, Cloud, and Automation. In my spare time, I actively engage in the development of open projects and continuously seek to expand my knowledge of emerging technologies and tools.`}
             </h2>
             <p className="pt-5 text-lg leading-7 text-slate-600 dark:text-slate-300 sm:block md:hidden lg:hidden">
               This is my place for{' '}
               <RoughNotation
-                animate="true"
+                animate={true}
                 type="box"
                 show={true}
                 color="#DE1D8D"
@@ -48,7 +48,7 @@ export default function Home({ posts }) {
             <p className="hidden pt-10 text-lg leading-7 text-slate-600 dark:text-slate-300 md:block">
               This is my place for{' '}
               <RoughNotation
-                animate="true"
+                animate={true}
                 type="highlight"
                 show={true}
                 color="#DE1D8D"
@@ -72,34 +72,6 @@ export default function Home({ posts }) {
               </div>
             </p>
           </div>
-          {/* <div className="h-content sm:h-content-sm flex flex-col justify-around">
-            <h1 className="sm:text-8.5xl tracking-tightest my-28 select-none text-center text-6xl font-extrabold leading-none sm:my-10">
-              <span
-                data-content="Blog."
-                className="relative block before:absolute before:top-0 before:bottom-0 before:left-0 before:block before:w-full before:animate-gradient-background-1 before:px-2 before:text-center before:text-black before:content-[attr(data-content)] dark:before:text-white dark:before:content-[attr(data-content)]"
-              >
-                <span className="animate-gradient-foreground-1 bg-gradient-to-br from-gradient-1-start to-gradient-1-end bg-clip-text px-2 text-transparent">
-                  Blog.
-                </span>
-              </span>
-              <span
-                data-content="Coding."
-                className="relative block before:absolute before:top-0 before:bottom-0 before:left-0 before:block before:w-full before:animate-gradient-background-2 before:px-2 before:text-center before:text-black before:content-[attr(data-content)] dark:before:text-white dark:before:content-[attr(data-content)]"
-              >
-                <span className="animate-gradient-foreground-2 bg-gradient-to-br from-gradient-2-start to-gradient-2-end bg-clip-text px-2 text-transparent">
-                  Coding.
-                </span>
-              </span>
-              <span
-                data-content="Portfolio."
-                className="relative block before:absolute before:top-0 before:bottom-0 before:left-0 before:block before:w-full before:animate-gradient-background-3 before:px-2 before:text-center before:text-black before:content-[attr(data-content)] dark:before:text-white dark:before:content-[attr(data-content)]"
-              >
-                <span className="animate-gradient-foreground-3 bg-gradient-to-br from-gradient-3-start to-gradient-3-end bg-clip-text px-2 text-transparent">
-                  Portfolio.
-                </span>
-              </span>
-            </h1>
-          </div> */}
           <div className="flex items-center justify-center">
             <div className="grid grid-cols-1 grid-rows-3 gap-8 py-12">
               <div className="my-2 grid items-start gap-8">
