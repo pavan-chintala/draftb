@@ -28,7 +28,7 @@ export default function Home({ posts }) {
               <span className="text-primary-color-500 dark:text-primary-color-dark-500">Pavan Chintala</span>
             </h1>
             <h2 className="prose pt-5 text-lg text-gray-600 dark:text-gray-300">
-              {`Welcome to ${siteMetadata.description}. I extend a warm welcome to my personal blog, a platform where I share insights and reflections. As an aspiring DevOps Engineer, my dedication is steadfastly rooted in the fields of DevOps, Cloud, and Automation. In my spare time, I actively engage in the development of open projects and continuously seek to expand my knowledge of emerging technologies and tools.`}
+              {` ${siteMetadata.description}. I extend a warm welcome to my personal blog, a platform where I share insights and reflections. As an aspiring DevOps Engineer, my dedication is steadfastly rooted in the fields of DevOps, Cloud, and Automation. In my spare time, I actively engage in the development of open projects and continuously seek to expand my knowledge of emerging technologies and tools.`}
             </h2>
             <p className="pt-5 text-lg leading-7 text-slate-600 dark:text-slate-300 sm:block md:hidden lg:hidden">
               This is my place for{' '}
