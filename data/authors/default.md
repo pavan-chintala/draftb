@@ -1,6 +1,6 @@
 ---
 name: Pavan Chintala
-avatar: /static/images/avatar.png
+avatar: /static/images/pavan.png
 occupation: DevOps Enthusiast
 company: DispatchTrack
 email: lifeofpavan@gmail.com
