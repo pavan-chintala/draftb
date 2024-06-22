@@ -1,21 +1,21 @@
 const siteMetadata = {
   title: 'Blog | Pavan Chintala',
   author: 'Pavan Chintala',
-  headerTitle: 'Mere Musings',
-  description: 'My personal blog where I share my musings',
+  headerTitle: 'Reflections',
+  description: 'Highlighting my role and impact in DevOps environments.',
   snippets: 'Reuseable code snippets collected by Pavan',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://musing.vercel.app',
-  siteRepo: 'https://github.com/pycoder2000/blog',
+  siteUrl: 'devopspavan.live',
+  siteRepo: 'https://devopspavan.live',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
   email: 'lifeofpavan@gmail.com',
-  github: 'https://github.com/pycoder2000',
+  github: 'https://github.com/pavan-chintala',
   twitter: 'https://twitter.com/',
   linkedin: 'https://www.linkedin.com/in/pavanchintala/',
-  website: 'https://parthdesai.vercel.app',
+  website: 'devopspavan.live',
   locale: 'en-US',
   analytics: {
     plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
