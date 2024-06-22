@@ -169,7 +169,7 @@ export default function Home({ posts }) {
           </div>
         </div>
         <h2 className="flex pb-6 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl md:text-5xl">
-          View_My_Open_Projects
+          Explore my coursework and certifications
         </h2>
         <hr className="border-gray-200 dark:border-gray-700" />
         <ul>
