@@ -47,8 +47,8 @@ export default function AuthorLayout({ children, frontMatter }) {
             <div className="flex flex-col pt-3">
               <a
                 className="rounded-full border px-8 py-2 text-center text-sm font-light text-gray-700 transition-colors hover:border-[#1DA1F2] hover:bg-[#1DA1F2] hover:text-white hover:shadow dark:text-white"
-                href="https://twitter.com/messages/compose?recipient_id=4302974298&text=Hey Parth"
-                data-screen-name="@_ParthDesai_"
+                href="https://twitter.com/messages/compose?recipient_id=4302974298&text=Hey Pavan"
+                data-screen-name="@_Pavan_Chintala"
                 target="_blank"
                 rel="noreferrer noopener"
               >
@@ -69,10 +69,10 @@ export default function AuthorLayout({ children, frontMatter }) {
               >
                 {text1} Currently, I am focused on building data pipelines and automating them at{' '}
                 <Link
-                  href={'https://www.accenture.com/in-en'}
+                  href={'https://dispatchtrack.com/'}
                   className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
                 >
-                  Accenture
+                  DispatchTrack
                 </Link>
               </RoughNotation>
             </p>
@@ -88,11 +88,11 @@ export default function AuthorLayout({ children, frontMatter }) {
             </p>
             <br />
             <p className="sm:block md:hidden lg:hidden">
-              I am always looking to learn new things. I am currently working on a few projects
-              related to
+              As a passionate DevOps enthusiast, I thrive on exploring and mastering new tools and technologies,
+              particularly in
               <span className="font-semibold">
                 {' '}
-                Natural Language Processing and Machine Learning.{' '}
+                AWS cloud services, containerization, automation, scripting, and the software development lifecycle (SDLC).{' '}
               </span>
               At the same time I am{' '}
               <RoughNotation
@@ -108,8 +108,8 @@ export default function AuthorLayout({ children, frontMatter }) {
               </RoughNotation>
             </p>
             <p className="hidden md:block">
-              I am always looking to learn new things. I am currently working on a few projects
-              related to{' '}
+              As a passionate DevOps enthusiast, I thrive on exploring and mastering new tools and technologies,
+              particularly in{' '}
               <RoughNotation
                 animationDelay="1000"
                 animationDuration="3000"
@@ -119,10 +119,10 @@ export default function AuthorLayout({ children, frontMatter }) {
                 show={true}
               >
                 <span className="text-black dark:text-white">
-                  Natural Language Processing and Machine Learning.{' '}
+                  AWS cloud services, containerization, automation, scripting, and the software development lifecycle (SDLC).{' '}
                 </span>
               </RoughNotation>
-              At the same time I am{' '}
+               {' '}
               <RoughNotation
                 type="underline"
                 show={true}
@@ -131,17 +131,17 @@ export default function AuthorLayout({ children, frontMatter }) {
                 animationDuration={3000}
                 multiline={true}
               >
-                actively on the lookout for remote internships which I can pursue in field of Data
-                Science
+                 
+                 
               </RoughNotation>
             </p>
             <br />
             <p>
-              I am a strong advocate for open source and I am always interested in working on new
-              projects with new people. Feel free to reach out if you have anything to talk about,
+              
+              Feel free to reach out if you have anything to talk about,
               you can reach me through{' '}
               <Link
-                href={'mailto:desaiparth2000@gmail.com'}
+                href={'mailto:lifeofpavan@gmail.com'}
                 className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
               >
                 Mail
@@ -161,7 +161,7 @@ export default function AuthorLayout({ children, frontMatter }) {
               </Link>{' '}
               or{' '}
               <Link
-                href={'https://api.whatsapp.com/send?phone=916358190818&text=hi'}
+                href={'https://api.whatsapp.com/send?phone=918499978964&text=hi'}
                 className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
               >
                 Whatsapp
@@ -188,7 +188,7 @@ export default function AuthorLayout({ children, frontMatter }) {
               >
                 Here
               </Link>{' '}
-              you can see what I use on daily basis
+               
             </p>
             <br />
             <h1>About this site</h1>
