@@ -16,7 +16,7 @@ const Contact = () => {
           <ul className="font-semi-bold flex flex-col space-y-4">
             <ContactLink
               href="mailto:lifeofpavan@gmail.com"
-              title="G Mail"
+              title="GMail"
               icon="lifeofpavan"
             />
             <ContactLink
@@ -31,7 +31,7 @@ const Contact = () => {
             />
             <ContactLink
               href="tel:+918499978964"
-              title="Mobile Number"
+              title="Mobile"
               icon="+91 8499978964"
             />
           </ul>
