@@ -1,6 +1,8 @@
-import siteMetadata from '@/data/siteMetadata'
-import ContactLink from '@/components/ContactLink'
-import { PageSEO } from '@/components/SEO'
+// Contact.js
+
+import siteMetadata from '@/data/siteMetadata';
+import ContactLink from '@/components/ContactLink';
+import { PageSEO } from '@/components/SEO';
 
 const Contact = () => {
   return (
@@ -14,25 +16,29 @@ const Contact = () => {
           <ul className="font-semi-bold flex flex-col space-y-4">
             <ContactLink
               href="mailto:lifeofpavan@gmail.com"
-              title="gmail"
+              title="G Mail"
               icon="lifeofpavan"
             />
-            <ContactLink href="https://github.com/pavan-chintala" title="github" icon="pavan-chintala" />
             <ContactLink
-              href="https://twitter.com/Pavan_Chintala"
-              title="twitter"
-              icon="_Pavan_"
+              href="https://medium.com/@lifeofpavan"
+              title="Medium"
+              icon="Pavan's Medium"
             />
             <ContactLink
               href="https://www.linkedin.com/in/pavanchintala/"
-              title="linkedin"
-              icon="pavanchintala"
+              title="LinkedIn"
+              icon="Pavan Chintala"
+            />
+            <ContactLink
+              href="tel:+918499978964"
+              title="Mobile Number"
+              icon="+91 8499978964"
             />
           </ul>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;
