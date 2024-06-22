@@ -9,7 +9,7 @@ const siteMetadata = {
   siteUrl: 'devopspavan.live',
   siteRepo: 'https://devopspavan.live',
   siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
+  image: '/static/images/pavan.png',
   socialBanner: '/static/images/twitter-card.png',
   email: 'lifeofpavan@gmail.com',
   github: 'https://github.com/pavan-chintala',
