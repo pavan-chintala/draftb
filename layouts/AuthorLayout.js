@@ -83,7 +83,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                 href={'/now'}
                 className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
               >
-                now
+                 
               </Link>
             </p>
             <br />
@@ -186,7 +186,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                 href={'/uses'}
                 className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
               >
-                Here
+                 
               </Link>{' '}
                
             </p>
