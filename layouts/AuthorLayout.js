@@ -67,7 +67,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                 animationDelay={300}
                 animationDuration={3000}
               >
-                {text1} Currently, I am focused on building data pipelines and automating them at{' '}
+                {text1} Currently, I am working on building CI/CD pipelines by implementing some open projects and I'm currently at{' '}
                 <Link
                   href={'https://dispatchtrack.com/'}
                   className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
@@ -78,7 +78,7 @@ export default function AuthorLayout({ children, frontMatter }) {
             </p>
             <br />
             <p>
-              This is what I am doing right{' '}
+               {' '}
               <Link
                 href={'/now'}
                 className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
@@ -103,8 +103,8 @@ export default function AuthorLayout({ children, frontMatter }) {
                 animationDuration={3000}
                 multiline={true}
               >
-                actively on the lookout for remote internships which I can pursue in field of Data
-                Science.
+                
+                
               </RoughNotation>
             </p>
             <p className="hidden md:block">
@@ -164,7 +164,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                 href={'https://api.whatsapp.com/send?phone=918499978964&text=hi'}
                 className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
               >
-                Whatsapp
+                WhatsApp
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -193,7 +193,7 @@ export default function AuthorLayout({ children, frontMatter }) {
             <br />
             <h1>About this site</h1>
             <p>
-              Welcome to my home on the internet. This site functions as a blog/portfolio, a place
+              This site functions as a blog/portfolio, a place
               to share code and thoughts. Opinions are my own.
             </p>
             <p>
@@ -263,8 +263,8 @@ export default function AuthorLayout({ children, frontMatter }) {
                 range={d.range}
                 url={d.url}
                 text1={d.text1}
-                text2={d.text2}
-                text3={d.text3}
+                //text2={d.text2}
+                //text3={d.text3}
               />
             ))}
           </div>
